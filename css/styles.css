@@ -1,0 +1,127 @@
+
+
+
+
+body{
+  font-family: "lato",sans-serif;
+  color: rgba(66, 66, 66, 1);
+  background: #E5E5E5;
+}
+.container{
+  width: 1500px;
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+/* head container*/
+.head.container{
+  display: flex;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  
+  
+  
+  
+
+}
+.baskiet{
+  display: flex;
+  
+}
+.logo-link{
+ position: absolute;
+ top: 50%;
+ transform: translateY(-50%);
+  
+ fill: rgba(1, 153, 109, 1);
+
+  
+}
+.alogo{
+  position: relative;
+  margin-right: 150px;
+  
+  
+}
+
+.list{
+  display: flex;
+  list-style: none;
+  gap: 35px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.link-nav{
+  text-decoration: none;
+}
+.page{
+  border: 1px solid #D6D6D6;
+  
+  
+}
+.item .link-nav{
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #292929;
+padding-top: 30px;
+padding-bottom: 30px;
+
+ 
+}
+.buttons{
+ 
+}
+.to-button{
+  margin-right: 35px;
+  border: none;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+background-color: transparent;
+}
+.btn-primary{
+  flex: none;
+order: 0;
+flex-grow: 0;
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+
+  padding: 13px 50px;
+  background: #01996D;
+border: 1px solid #01996D;
+border-radius: 4px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+  background-color: chartreuse;
+  color:orangered;
+  border-color: chartreuse;
+
+}
+.to-button:hover,
+.to-button:focus,
+.link-nav:hover,
+.link-nav:focus{
+  color: blue;
+}
