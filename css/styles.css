@@ -10,7 +10,7 @@ body{
   background: #E5E5E5;
 }
 .container{
-  width: 1250px;
+  width: 1300px;
   margin: 0 auto;
   padding: 0 15px;
 
@@ -48,10 +48,12 @@ body{
   margin-right: 150px;
   color: rgba(1, 153, 109, 1);
   transition: color var(--trans--);
+  height: 80px;
 
   
   
 }
+
 .alogo:hover,
 .alogo:focus{
   color: rgb(7, 207, 7);
@@ -88,9 +90,7 @@ padding-bottom: 30px;
 
  
 }
-.buttons{
- 
-}
+
 .to-button{
   margin-right: 35px;
   border: none;
@@ -141,13 +141,92 @@ border-color var(--trans--) ;
   color:rgb(7, 207, 7);
 }
 /*hero container*/
-.hero{
-  height: 600px;
+.section.hero{
+  height: 625px;
   max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/fotohero.jpg);
+  background-image: url(../images/fotohero1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
+.hero-tytle{
+  font-family: 'Geologica';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 74px;
+color: #01996D;
+  margin-bottom: 50px;
+  margin-top: 0px;
+}
+.hero-content{
+  position: absolute;
+  width: 440px;
+height: 384px;
+
+top: 261px;
+}
+.hero-text{
+margin-top: 0px;
+margin-bottom: 40px;
+
+
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 31px;
+
+}
+/* 3 stres container*/
+.section-stres{
+  background-color: #FFFFFF;
+}
+.dstres{
+  display: flex;
+  padding: 140px 0px;
+  justify-content: space-between;
+  
+  
+  
+  
+  
+
+}
+.dstres .stresd{
+  width: 580px;
+  
+}
+
+.dstres-text{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 157%;
+color: #424242;
+margin: 0px;
+}
+.dstres-tytle{
+  font-family: 'Geologica ';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 157%;
+color: #01996D;
+margin: 0px;
+}
+.dstres-content{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+margin-top: 58px;
+}
+
