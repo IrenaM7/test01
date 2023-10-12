@@ -229,4 +229,60 @@ line-height: 150%;
 color: #424242;
 margin-top: 58px;
 }
+.wrap{
+  display: flex;
+  width: 100%;
+  
+}
+.wrap .boxes{
+  display: block;
+  
+  
+  
+}
+.boxes{
+  position: relative;
+  margin-bottom: 40px;
+  flex: 1;
+  
+}
+.boxes-text{
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #424242;
+}
+.caption{
+  position: absolute;
+ 
+
+
+  font-family: 'Geologica';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 150%;
+margin-top: 0px;
+margin-bottom: 0px;
+
+
+
+
+color: #000000;
+}
+.textn{
+  
+  font-family: 'Geologica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  line-height: 150%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
+  color: rgba(1, 153, 109, 0.2);
+
+}
 
